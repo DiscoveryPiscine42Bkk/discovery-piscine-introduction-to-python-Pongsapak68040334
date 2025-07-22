@@ -1,6 +1,6 @@
-msg = input("what you gotta say ? : ")
-while True:
-    if msg == "STOP":
-     msg = input("I got that! Anything else? : ")
-    
+# รับข้อมูลจากผู้ใช้ผ่านทางคีย์บอร์ด แล้วเก็บไว้ในตัวแปร txt_input
+txt_input = input("Give me a word: ")
+
+# แสดงผลข้อความที่ผู้ใช้กรอกเข้ามาในรูปแบบตัวพิมพ์ใหญ่ทั้งหมด
+print(txt_input.upper())
    
